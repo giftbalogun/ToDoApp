@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="today" />
+    <string name="tomorrow" />
+    <string name="task" />
+    <string name="todo" />
+    <string name="upcoming_next" />
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="number">2348027237396</string>
+
+</resources>

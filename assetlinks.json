@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.balogun.todoapp",
+    "sha256_cert_fingerprints":
+    ["DA:CF:D8:26:B1:CC:2F:5E:B0:BE:80:27:86:45:D5:55:87:E0:CB:98:29:88:21:31:62:B8:E1:B0:42:EE:FA:92"]
+  }
+}]

@@ -1,4 +1,4 @@
-package com.balogun.todoappapp;
+package com.balogun.todoapp;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

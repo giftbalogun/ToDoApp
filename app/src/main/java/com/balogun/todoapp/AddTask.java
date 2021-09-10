@@ -1,4 +1,4 @@
-package com.balogun.todoappapp;
+package com.balogun.todoapp;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.balogun.todoapp.TaskDBHelper;
+import com.balogun.todoappapp.R;
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

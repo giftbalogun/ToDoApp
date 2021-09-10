@@ -1,4 +1,4 @@
-package com.balogun.todoappapp;
+package com.balogun.todoapp;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,6 +14,11 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.widget.NestedScrollView;
 
+import com.balogun.todoapp.TaskDBHelper;
+
+import com.balogun.todoapp.ListTaskAdapter;
+import com.balogun.todoappapp.NoScrollListView;
+import com.balogun.todoappapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.analytics.FirebaseAnalytics;
 

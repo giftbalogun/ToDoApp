@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:text="Website / Android Developer"
+                android:text="Website &amp; Android Developer"
                 android:textColor="#fff"
                 android:textSize="21sp"
                 android:textStyle="bold" />
@@ -56,7 +56,7 @@
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="400dp"
+            android:layout_width="410dp"
             android:layout_height="120dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="280dp">
@@ -168,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="gift@balogunigift.ga"
+                android:text="hello@giftbalogun.name.ng"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -235,7 +235,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="am_de_one"
+                android:text="am_thd_one"
                 android:textStyle="bold" />
 
         </LinearLayout>

@@ -1,4 +1,4 @@
-package com.balogun.todoappapp;
+package com.balogun.todoapp;
 
 import android.app.Activity;
 import android.text.Html;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
+import com.balogun.todoapp.TaskHome;
+import com.balogun.todoappapp.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

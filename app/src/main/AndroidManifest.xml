@@ -28,8 +28,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="balogungift.ga"
-                    android:scheme="http" />
+                    android:host="giftbalogun.name.ng"
+                    android:scheme="https" />
             </intent-filter>
         </activity>
         <activity android:name="com.balogun.todoappapp.AddTask" />

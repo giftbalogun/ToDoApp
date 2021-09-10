@@ -1,4 +1,4 @@
-package com.balogun.todoappapp;
+package com.balogun.todoapp;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.balogun.todoapp.TaskHome;
 
 public class ProgressBarAnimation extends Animation {
     private Context context;

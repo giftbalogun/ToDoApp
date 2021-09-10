@@ -1,4 +1,4 @@
-package com.balogun.todoappapp;
+package com.balogun.todoapp;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.balogun.todoappapp.R;
 
 public class About extends AppCompatActivity {
     TextView email, phone, twitter, instagram;
@@ -31,7 +33,7 @@ public class About extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain"); // send email as plain text
-                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"gift@balogungift.ga"});
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"hello@giftbalogun.name.ng"});
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Customer Contact");
                 intent.putExtra(Intent.EXTRA_TEXT, "Write Your Message Here");
                 startActivity(Intent.createChooser(intent, ""));
@@ -43,7 +45,7 @@ public class About extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:+234802723796"));
+                intent.setData(Uri.parse("tel:+2347061601790"));
                 startActivity(intent);
 
             }
@@ -60,7 +62,7 @@ public class About extends AppCompatActivity {
         instagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/am_de_one"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/am_thd_one"));
                 startActivity(intent);
             }
         });
@@ -68,7 +70,7 @@ public class About extends AppCompatActivity {
         website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://balogungift.ga"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://giftbalogun.name.ng/"));
                 startActivity(intent);
             }
         });

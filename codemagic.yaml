@@ -1,8 +1,15 @@
-# Workflow setup for building Native Android project
 workflows:
-  android-app: # workflow ID
-    name: ToDoApp # workflow name
+  simple-workflow:
+    name: ToDoApp
+    max_build_duration: 60
     scripts:
-      - ./gradlew assembleDebug
+      - name: Run tests
+        script: ./gradlew test
+      - name: Build debug apk
+        script: ./gradlew assembleDebug
     artifacts:
-      - build/outputs/**/**/*.apk
+      - app/build/**/outputs/**/*.apk
+    publishing:
+      email:
+        recipients:
+          - blgnbalogun53@gmail.com

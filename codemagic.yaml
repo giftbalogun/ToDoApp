@@ -1,5 +1,8 @@
+# Workflow setup for building Native Android project
 workflows:
-  todoapp:
-    name: ToDOApp
+  android-app: # workflow ID
+    name: ToDoApp # workflow name
     scripts:
-        - echo "Hello World!"
+      - ./gradlew assembleDebug
+    artifacts:
+      - build/outputs/**/**/*.apk
